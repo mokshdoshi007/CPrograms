@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+	clrscr();
+	int i,j,k;
+	for(i=1; i<=5; i++)
+	{       for(k=4; k>=i; k--)
+			printf("  ");
+		for(j=1; j<=i; j++)
+		{
+			printf("%d ",(i-j+1));
+		}
+		printf("\n");
+	}
+	getch();
+}
